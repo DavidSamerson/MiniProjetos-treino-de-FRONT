@@ -1,0 +1,44 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana;
+  font-size: 95%;
+}
+
+ul{
+  list-style-type: none;
+  
+}
+
+ul li{
+  background-color: grey;
+  width: 150px;
+  height: 30px;
+  margin-top: 5px;
+  line-height: 30px;
+  cursor: pointer; 
+  float: left;
+  text-align: center;
+}
+
+ul li:hover {
+  background-color: #999;
+  
+}
+
+ul li ul li{
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 5px;
+  height: 30px;
+  margin-top: 0px;
+}
+
+ul li ul{
+  display: none;
+}
+
+ul li:hover ul{
+  display: block;
+}
+
