@@ -1,0 +1,25 @@
+.banner {
+	width: 960px;
+	height: 400px;
+	margin: 0 auto;
+	animation: slide 10s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes slide {
+
+	0%, 30% {
+
+		background-image: url(../imagens/mine1.jpg); 
+
+	} 35%, 65% {
+
+		background-image: url(../imagens/mine2.jpg);
+
+	} 70%, 100% {
+
+		background-image: url(../imagens/mine3.jpg);
+
+	}
+
+}
