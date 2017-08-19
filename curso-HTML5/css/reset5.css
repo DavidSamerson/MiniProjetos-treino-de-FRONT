@@ -8,13 +8,13 @@ section{
 	margin: auto;
 	background-color: #fff;
 	padding: 10px;
-	width: 960px;
+	width: auto;
 }
 
 fieldset{
-	width: 700px;
+	width: auto;
 	border: 3px solid #ddd;
-	border-radius: 5px;
+	border-radius: 10px;
 }
 
 .campos{
@@ -25,4 +25,8 @@ fieldset{
 	border-radius: 3px;
 	margin-top: 5px;
 
+}
+
+.campos:hover {
+	box-shadow: 4px 0 0 #ddd;
 }
