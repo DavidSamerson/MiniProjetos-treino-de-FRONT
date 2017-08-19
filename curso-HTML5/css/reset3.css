@@ -26,19 +26,34 @@ ul li:hover {
   
 }
 
-ul li ul li{
-  text-align: left;
+.submenu {
+  background-color: grey;
+  width: 400px;
   box-sizing: border-box;
-  padding-left: 5px;
-  height: 30px;
-  margin-top: 0px;
-}
-
-ul li ul{
+  padding: 5px;
   display: none;
 }
 
-ul li:hover ul{
-  display: block;
+section {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  margin: 3px;
+  line-height: 60px;
+  text-align: justify;
 }
 
+img {
+  width: 60px;
+  height: 100%; 
+  float: left;
+  padding-right: 20px;
+}
+
+section:hover {
+  background-color: #ccc;
+}
+
+ul li:hover .submenu{
+  display: block;
+}

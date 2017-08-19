@@ -1,0 +1,28 @@
+body {
+	background-color: #ccc;
+	font-family: verdana;
+    font-size: 95%;
+}
+
+section{
+	margin: auto;
+	background-color: #fff;
+	padding: 10px;
+	width: 960px;
+}
+
+fieldset{
+	width: 700px;
+	border: 3px solid #ddd;
+	border-radius: 5px;
+}
+
+.campos{
+
+	width: 200px;
+	height: 30px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-top: 5px;
+
+}
