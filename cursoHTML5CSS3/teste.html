@@ -1,0 +1,51 @@
+<head>
+    <meta charset="utf-8">
+    <title>Sistema de Cadastro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="menu">
+                <a href="index.php">
+                    <li>Cadastro</li>
+                </a>
+                <a href="consultas.php">
+                    <li>
+                        Consultas
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <section>
+
+            <h1>cadastro de usuarios</h1>
+            <hr>
+            <br>
+            <br>
+
+            <form method="post" action="processa.php">
+
+                <input type="submit" value="salvar" class="btn" style="margin-left: 30px; margin-top: 0px;">
+                <input type="reset" value="limpar" class="btn" style="margin-left: 34px; margin-top: -5px;">
+                <br>
+                <br> Nome
+                <br>
+                <input type="text" name="nome" class="campo" maxlength="40" required="" autofocus="">
+                <br> Email
+                <br>
+                <input type="email" name="email" class="campo" maxlength="40" required="">
+                <br> Profissão
+                <br>
+                <input type="text" name="profissao" class="campo" maxlength="40" required="">
+                <br>
+
+            </form>
+
+        </section>
+    </div>
+
+
+
+</body>
